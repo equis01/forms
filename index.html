@@ -231,13 +231,29 @@
 
         <header class="section-header">
           <h3>Pricing</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <p>Choose you favorite plan!</p>
         </header>
 
         <div class="row flex-items-xs-middle flex-items-xs-center">
       
           <!-- Basic Plan  -->
           <div class="col-xs-12 col-lg-4">
+	<div class="card">
+              <div class="card-header">
+                <h3><span class="currency">$</span>0<span class="period">/month</span></h3>
+              </div>
+              <div class="card-block">
+                <h4 class="card-title"> 
+                  Free
+                </h4>
+                <ul class="list-group">
+                  <li class="list-group-item">One form</li>
+                  <li class="list-group-item">18/5 Support System</li>
+                </ul>
+                <a href="#contact" class="btn">Choose Plan</a>
+              </div>
+            </div>
+		  
             <div class="card">
               <div class="card-header">
                 <h3><span class="currency">$</span>1<span class="period">/month</span></h3>
@@ -247,10 +263,11 @@
                   Basic Plan
                 </h4>
                 <ul class="list-group">
+		  <li class="list-group-item">2 weeks free trial.</li>
                   <li class="list-group-item">Two contact forms (two pages)</li>
                   <li class="list-group-item">18/5 Support System</li>
                 </ul>
-                <a href="#" class="btn">Choose Plan</a>
+                <a href="#contact" class="btn">Choose Plan</a>
               </div>
             </div>
           </div>
@@ -301,6 +318,26 @@
             </div>
           </li>
         </ul>
+	      <ul id="faq-list" class="wow fadeInUp">
+          <li>
+            <a data-toggle="collapse" class="collapsed" href="#faq1">Why send you a mail, and no just buy? <i class="ion-android-remove"></i></a>
+            <div id="faq1" class="collapse" data-parent="#faq-list">
+              <p>
+                The reason is because we knaw how do your form, and the service is more legit for you!
+              </p>
+            </div>
+          </li>
+        </ul>
+	      <ul id="faq-list" class="wow fadeInUp">
+          <li>
+            <a data-toggle="collapse" class="collapsed" href="#faq1">Why a $1dll?<i class="ion-android-remove"></i></a>
+            <div id="faq1" class="collapse" data-parent="#faq-list">
+              <p>
+                To you trust us service and if you can cancel, anyone lost.
+              </p>
+            </div>
+          </li>
+        </ul>
       </div>
     </section><!-- #faq -->
 
@@ -323,12 +360,14 @@
 
                   <div class="footer-info">
                     <h3>Uforms</h3>
-                    <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+			  <p>Our team have talent.</p>
+			  <p>Anyone better than us</p>
+			  <p>This site is host in Netlify and build in GitHut.</p>
                   </div>
 
                   <div class="footer-newsletter">
                     <h4>Our Newsletter</h4>
-                    <p>Be the first in have promocional codes and know more about our services.</p>
+                    <p>Be the first to get promocional codes and know more about us.</p>
                     <form name="newsletters" method="post" netlify>
                       <input type="email" name="email"><input type="submit"  value="Subscribe">
                     </form>
