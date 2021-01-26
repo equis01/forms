@@ -1,0 +1,1 @@
+alert("After to this (maximun time: 12 h) check your e-mail to receive your link.");
